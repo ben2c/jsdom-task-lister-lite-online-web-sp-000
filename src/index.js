@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   const form = document.querySelector('form');
 
-  form.addEventListener('submit', function(e)){
+  form.addEventListener('submit', function(e) {
     e.preventDefault();
 
   let inputTag = document.querySelector('input#new-task-description')
@@ -14,6 +14,6 @@ document.addEventListener("DOMContentLoaded", () => {
   ulTag.append(newLi)
   inputTag.value = '';
 
-  }
+})
 
 });
