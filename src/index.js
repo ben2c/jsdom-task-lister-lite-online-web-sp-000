@@ -15,5 +15,5 @@ document.addEventListener("DOMContentLoaded", () => {
   inputTag.value = '';
 
   }
-  
+
 });
